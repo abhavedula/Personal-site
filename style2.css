@@ -1,3 +1,8 @@
+.b1 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .nav-wrapper {
   background-color: white;
   border-color: #DA978E;
@@ -7,7 +12,7 @@
 
 #logo {
 
-    text-indent:5px;
+  text-indent:5px;
 
 }
 
@@ -17,6 +22,7 @@
 
 .title {
   font-size: 20px;
+  color: white;
 }
 
 .nav-wrapper a {
@@ -24,14 +30,27 @@
 
 }
 
+.clubs li {
+  color: white;
+}
+
 body {
   background-color: white;
 
 }
 
+
+
 .stuff {
+  margin-top: -20px;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.stuff2 {
   margin-left: 20px;
   margin-right: 20px;
+
 }
 
 .nav {
@@ -57,7 +76,7 @@ h3 {
 
 h4 {
   font-family: 'Sansita', sans-serif;
-  color: black;
+  color: white;
 
 }
 
@@ -82,7 +101,7 @@ h4 {
 */
 
 .parallax-mirror {
-    z-index:1
+  z-index:1
 }
 
 div.transbox {
@@ -112,21 +131,61 @@ div.transbox p {
 
 }
 
+.box-galileo {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  background-image: url("images/foodship2.png");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 60px; 
+  margin-bottom: 50px;
+
+
+}
+
+
+#projects {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.box-galileo:hover  {
+  background-image: url("images/black.jpg");
+  background-size: 200px, 200px;
+}
+
+
+.box-galileo .text {
+  visibility:hidden;
+}
+
+.box-galileo:hover .text {
+  visibility:visible;
+}
+
+
+
+.box-galileo .desc {
+  visibility:hidden;
+}
+
+.box-galileo:hover .desc {
+  visibility:visible;
+}
+
+
 
 
 .box-foodship {
 	width: 200px;
 	height: 200px;
-
-    padding: 10px;
-
-    margin: 0;
-
-    background-image: url("images/foodship2.png");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-right: 100px; 
-    margin-bottom: 50px;
+  padding: 10px;
+  background-image: url("images/foodship2.png");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 60px; 
+  margin-bottom: 50px;
 
 
 }
@@ -166,15 +225,13 @@ div.transbox p {
 	width: 200px;
 	height: 200px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: 0;
-
-    background-image: url("images/scribe.png");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-right: 100px; 
-    margin-bottom: 50px;
+  background-image: url("images/scribe.png");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 100px; 
+  margin-bottom: 50px;
 }
 
 .box-scribe:hover  {
@@ -202,14 +259,16 @@ div.transbox p {
 	width: 200px;
 	height: 200px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: 0;
 
-    background-image: url("https://media.giphy.com/media/fpXxIjftmkk9y/giphy.gif");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-bottom: 50px;
+
+  background-image: url("https://media.giphy.com/media/fpXxIjftmkk9y/giphy.gif");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 100px; 
+  margin-bottom: 50px;
+}
 
 }
 
@@ -241,15 +300,14 @@ div.transbox p {
 	width: 200px;
 	height: 200px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: 0;
 
-    background-image: url("images/cw.png");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-right: 100px; 
-    margin-bottom: 50px;
+  background-image: url("images/cw.png");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 100px; 
+  margin-bottom: 50px;
 }
 
 .box-fbu:hover  {
@@ -276,15 +334,15 @@ div.transbox p {
 	width: 200px;
 	height: 200px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: 0;
+  margin: 0;
 
-    background-image: url("images/clo.jpeg");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-right: 100px; 
-    margin-bottom: 50px;
+  background-image: url("images/clo.jpeg");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-right: 100px; 
+  margin-bottom: 50px;
 }
 
 .box-clove:hover  {
@@ -314,14 +372,14 @@ div.transbox p {
 	width: 200px;
 	height: 200px;
 
-    padding: 10px;
+  padding: 10px;
 
-    margin: 0;
+  margin: 0;
 
-    background-image: url("images/imf.png");
-    background-size: 200px, 200px;
-    float: left; 
-    margin-bottom: 50px;
+  background-image: url("images/imf.png");
+  background-size: 200px, 200px;
+  float: left; 
+  margin-bottom: 50px;
 }
 
 .box-imf:hover  {
@@ -348,8 +406,8 @@ div.transbox p {
 }
 
 @font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
 }
 
 .black-text {
@@ -357,10 +415,22 @@ div.transbox p {
   font-family: 'Raleway';
 }
 
+.tab{
+  background-color: rgba(255,255,255,0.1);
+}
+
+.card-content {
+  background-color: rgba(255,255,255,0.1);
+}
+
+a {
+  color: #e57373;
+}
+
 
 .card {
-	background-color: rgba(0,0,0,0.4);
-
+	background-color: rgba(0,0,0,0.0);
+  border: none;
 }
 
 li {
@@ -383,21 +453,21 @@ p {
 }
 
 footer.page-footer {
-    background-color: white;
+  background-color: white;
 }
 
 .side-corner-tag {
-    position: relative;
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    font-weight: 900;
+  position: relative;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
 } 
- 
+
 .side-corner-tag p {
-    display: inline;    
+  display: inline;    
 }
 
 
